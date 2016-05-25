@@ -16,11 +16,11 @@
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/zte/N939sc/proprietary/bin,system/bin)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/zte/N939sc/proprietary/lib,system/etc)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/zte/N939sc/proprietary/etc,system/etc)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/zte/N939sc/proprietary/lib,system/lib)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/zte/N939sc/proprietary/lib,system/lib64)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/zte/N939sc/proprietary/lib64,system/lib64)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/zte/N939sc/proprietary/etc,system/etc)
 
